@@ -1,10 +1,10 @@
 import Router from 'express';
-import userRouter from './users';
 import websiteRouter from './websites';
+import statusRouter from './status';
 
 const router = Router();
 
-router.use('/users', userRouter);
+router.use('/status', statusRouter);
 router.use('/website', websiteRouter);
 
 export default router;
