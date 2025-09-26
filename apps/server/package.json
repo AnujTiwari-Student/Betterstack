@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.2",
+    "database": "*",
     "express": "^5.1.0",
-    "database": "*"
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^4.1.11"
   }
 }
