@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'bun:test';
 import axios from 'axios';
+import { BASE_URL } from 'configs/config';
 
-let BASE_URL = process.env.BASE_URL || 'http://localhost:5000/api/v1';
 
 describe('Website API - Create URL', () => {
     it('❌ Website should NOT be created if url is missing', async () => {
